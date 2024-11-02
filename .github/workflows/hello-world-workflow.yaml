@@ -7,7 +7,7 @@ jobs:
     steps:
       -name: echo Hello
         run: echo "Hello World"
-      - name: multiple line cmd
+      -name: multiple line cmd
         run: |
           node -v
           npm -v
