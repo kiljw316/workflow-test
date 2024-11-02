@@ -5,9 +5,9 @@ jobs:
   shell-cmd-job:
     runs-on: ubuntu-latest
     steps:
-      -name: echo Hello
+      - name: echo Hello
         run: echo "Hello World"
-      -name: multiple line cmd
+      - name: multiple line cmd
         run: |
           node -v
           npm -v
